@@ -1,24 +1,24 @@
 # redis-node
 
-# Una forma sencilal de hacer cache con redis de una peticion
+- Una forma sencilal de hacer cache con redis de una peticion
 
-### NOTA: instalar redis en tu computadora o descargarlo de docker
+#### NOTA: instalar redis en tu computadora o descargarlo de docker
 https://redis.io/download
 
-# Con docker
-# docker pull redis
-# docker run -p 6379:6379 --name redis-node -d redis
+##### Con docker
+ - docker pull redis
+ -  docker run -p 6379:6379 --name redis-node -d redis
 
-# para instalar entorno visual para ver el redis
+## redis-commander
+#### para instalar entorno visual para ver el redis
+
 https://github.com/joeferner/redis-commander
-# redis-commander
 
-$ npm install -g redis-commander
-$ redis-commander
+`$ npm install -g redis-commander`
+`$ redis-commander`
 
-# para instalar paquetes y lanzar el servidor 
-$ npm intall
-$ npm run dev
+##### para instalar paquetes y lanzar el servidor 
+`$ npm intall`
+`$ npm run dev`
 
-### NOTA: isntlar extension de vscode REST Client (opcional)
-
+##### NOTA: instalar extension de vscode REST Client (opcional)
